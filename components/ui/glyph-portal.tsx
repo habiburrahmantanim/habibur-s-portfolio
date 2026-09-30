@@ -29,6 +29,7 @@ export interface GlyphPortalProps {
 
 type LetterAnchor = { char: string; x: number; y: number };
 
+const WORD_OPTIONS = ["SUBLIME", "CREATIVE", "BUILDER", "DEVELOPER"];
 const ZOOM_EASE = 0.1;
 
 const clamp = (value: number, min: number, max: number) =>
